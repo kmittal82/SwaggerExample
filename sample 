@@ -1,0 +1,12 @@
+"use strict";
+
+var mongoose = require('mongoose'),
+	Contact = require('../models/contacts.model');
+
+module.exports = {
+	getAllContacts: function(req, res){
+		res.json({
+			movies: ['Aditya', 'Smith']
+		});
+	};
+}
